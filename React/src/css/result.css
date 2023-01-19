@@ -1,0 +1,50 @@
+.search-result-item{
+    display: flex;
+    padding: 15px;
+    border-bottom: solid 3px #FFBB3E;
+    justify-content: center;
+}
+
+.search-result-item img{
+border-radius: 5px;
+}
+
+.recipe-container{
+    text-decoration: none;
+}
+
+.search-result-item-wrapper{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+   
+}
+.search-result-item-photo{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.search-result-name {
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.search-result-username {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 300;
+    color:rgb(126, 125, 125)
+}
+
+.search-result-name-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-result-username-container{
+    display: flex;
+    justify-content: space-between;
+}

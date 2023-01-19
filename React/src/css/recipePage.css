@@ -1,0 +1,320 @@
+.navbar span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recipe-container{
+height: 85vh;
+justify-content: center;
+align-items: center;
+overflow-y: scroll;
+scroll-behavior: smooth;
+
+}
+
+.icon {
+    height: 50px;
+    border-radius: 50px;
+    border: 4px solid orange;
+    margin-right: 5px;
+}
+
+.user-data{
+    display: flex;
+    border-left: ridge 10px #a0a0a0;
+    /* border-bottom: ridge 5px gray; */
+    /* align-content: stretch; */
+    align-items: center;
+    padding-left: 5px;
+}
+
+.basic-detail {
+    border-top: solid 3px #FFBB3E;
+}
+
+.basic-information{
+    
+    
+    margin-top: 15px;
+    padding: 15px 15px;
+    border-bottom: solid 3px #FFBB3E;
+}
+
+.recipe-name{
+    border-bottom: solid 3px #FFBB3E;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 900;
+    background-color: #EDE9E0;
+}
+
+.basic-information div{
+    padding-bottom: 5px;
+}
+
+.ingredients-item{
+    display:flex;
+    padding: 5px 0;
+    justify-content: space-between;
+}
+
+.ingredients-information{
+
+    margin-top: 15px;
+    padding: 0 15px;
+    border-bottom: solid 3px #FFBB3E;
+}
+.ingredients-set, .set-name{
+    margin-bottom: 15px;
+    border-bottom: solid 3px rgb(197, 194, 194);
+   
+}
+
+.set-name{
+    font-size:20px
+}
+
+.single-step{
+   
+    display: flex;
+}
+
+.step-img{
+     display: flex;
+}
+
+.step-information{
+  
+   
+    border-bottom: solid 3px #FFBB3E;
+    margin-top: 15px;
+    padding: 15px 15px;
+}
+
+.step-information img{
+    width: 300px;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.step-number{
+    background-color: black;
+    color: white;
+    min-width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 10px;
+    font-weight: 900;
+}
+
+.recipe-title{
+    width: 100%;
+    
+}
+
+.no-cooksnap-message{
+    height: 30vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cook-snap-information button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.comment-section button{
+    background-color: #FFBB3E;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+/***test**/
+.section-cooksnap {
+    padding: 2rem 0;
+    padding: 10px;
+  }
+  
+  .label-cooksnap {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted black;
+    border-radius: 20px;
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  .label-cooksnap span {
+    font-weight: lighter;
+    font-size: small;
+    padding-top: 0.5rem;
+  }
+  
+  .section-cookSnap img {
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .cooksnap-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .cooksnap-images img{
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+
+  .section-cookSnap image {
+    margin: 1rem 0.5rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  }
+  
+  .section-cookSnap button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: lightcoral;
+  }
+  
+  .section-cookSnap image button:hover {
+    background-color: red;
+  }
+  
+  .section-cookSnap image p {
+    padding: 0 0.5rem;
+    margin: 0;
+  }
+  
+  .upload-btn {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 20px;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    background-color: green;
+  }
+  
+  label:hover,
+  .upload-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  
+  .cooksnap-error {
+    text-align: center;
+  
+  }
+
+  .cooksnap-error-input{
+    border: solid 3px #FFBB3E;
+    width: 100%;
+    text-align: center;
+    height: 5vh;
+    border-radius: 10px;
+  
+  }
+  
+  .cooksnap-error span {
+    color: red;
+  }
+
+  .no-view-input{
+    display: none;
+  }
+
+  .scorll-cooksnap-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 55vh;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+
+  }
+
+  .cooksnap-container{
+    width: 250px;
+    height: 100%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 3px #a0a0a0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px;
+  }
+ 
+
+  .recipe-style{
+    display: flex;
+  }
+
+  .css-e9t6p3{
+    margin: 5px;
+  }
+
+.css-18skf83{
+    margin: 5px;
+  }
+
+  .avatar-div-icon{
+    margin: 5px;
+  }
+
+  .comment-text-area{
+    width: 300px;
+    border: solid;
+    min-height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+  }
+
+
+  .cooksnap-card-image{
+    max-width: 100%;
+    height: 30vh;
+    object-fit: cover;
+  }
+
+  .css-14skwda{
+    margin: 10px;
+  }
+
+  .recipe-like{
+    text-align: right;
+  }
+
+  .comment-submit-bar{
+    margin-bottom: 5vh
+  }

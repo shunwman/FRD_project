@@ -1,0 +1,214 @@
+.addRecipeFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #ffbb3f;
+    height: 100%;
+    width: 100vw;
+}
+
+.uploadRecipeBtn {
+    display: inline-flex;
+    justify-content: center;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 3rem;
+    height: 1.5rem;
+    background-color: #ffbb3f;
+}
+
+
+.formPageHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: White;
+    overflow: hidden;
+    position: relative;
+    border-bottom: #FFBB3E solid 3px;
+
+}
+.postRecipeForm {
+    width: 100%;
+}
+.recipeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 82.5vh;
+    width: 100%;
+    /* background-color: aqua; */
+    overflow-y: scroll;
+    /* padding: 0 !important; */
+}
+
+.uploadRecipeBtn {
+    border-radius: 0.3rem;
+}
+
+.uploadMainImage {
+    background-color: cornflowerblue;
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    width: 100%;
+    height: 6rem;
+    border-radius: 0.5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* chakra-stack css-gsc7pt */
+
+.chakra-stack {
+    /* display: flex; */
+    width: 80%;
+    /* justify-content: center; */
+}
+
+.chakra-stack > .chakra-checkbox{
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.servingSize , .durationMin {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unitInput {
+    border: #FFBB3E solid 2px;
+    width: 20%;
+
+}
+.ingredientsStack {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.ingredientsStack > .chakra-stack {
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.recipeForm > .chakra-stack > .chakra-textarea {
+    background-color: white;
+    border: #FFBB3E solid 2px;
+    padding-left: 7px;
+    padding-top: 9px;
+}
+
+.recipeForm > .chakra-stack > .css-b62m3t-container> .css-1s2u09g-control {
+    border: #FFBB3E solid 2px;
+
+}
+
+.recipeForm > .chakra-stack > .css-b62m3t-container> .css-1pahdxg-control {
+    border: #FFBB3E solid 2px;
+    box-shadow: 0 0 0 1px #FFBB3E;
+}
+
+.ingredientsBorder, .stepsBorder {
+    background-color: #EDE9E0;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.addNewIngredients {
+    background-color: #FFBB3E;
+    width: 6rem;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8%;
+}
+
+.ingredients{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.ingredients > input{
+    width: 48%;
+    height: 2rem;
+    /* border: #FFBB3E solid 2px; */
+    /* border-bottom: 1px solid grey; */
+}
+
+.ingredients > .fa-trash-can {
+    /* background-color: green; */
+    color: gray;
+    /* width: 2rem;
+    height: 2rem; */
+    position: absolute;
+    right: -8%;
+    top: 20%
+
+}
+
+.stepsSubContainer {
+    display: flex;
+    padding-left: 2rem;
+
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+/* .divInSteps {
+    width: 50%;
+} */
+
+.stepsMidSubContainer {
+    width: 70%;
+    padding-left: 5%;
+}
+
+.stepsMotherContainer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.stepsContainer {
+    width: 100%;
+}
+
+.stepsDescription {
+    width: 100%
+}
+
+
+
+.stepsPhoto {
+    background-color: cyan;
+    width: 50%;
+}
+
+.checkLocalStorage {
+    background-color: #FFBB3E;
+}
+
+

@@ -1,0 +1,16 @@
+.search {
+  FONT-WEIGHT: 100;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  padding: 0% 0% 0% 2%;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  align-items: center;
+  }
+
+.searchBarContainer {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}

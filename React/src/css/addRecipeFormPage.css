@@ -1,0 +1,380 @@
+.addRecipeFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: 100vw;
+    font-size: 25px;
+}
+
+.uploadRecipeBtn {
+    display: inline-flex;
+    justify-content: center;
+    width: 75px;
+    height: 40px;
+    background-color: #ffbb3fcc;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 3px 5px 10px -3px #ffbb3fcc;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.formPageHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 7vh;
+    background-color: White;
+    /* overflow: hidden; */
+    /* position: relative; */
+    border-bottom: #FFBB3E solid 3px;
+    font-weight: bold;
+
+}
+
+
+
+.postRecipeForm {
+    width: 100%;
+}
+
+.recipeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 82.5vh;
+    width: 100%;
+    background-color: #f5f4f4;
+    overflow-y: scroll;
+    /* padding: 0 !important; */
+}
+
+.uploadInput {
+    display: none;
+}
+
+.upload-image-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.uploadInput-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.uploadMainImage {
+
+    width: 100%;
+    height: 25vh;
+    border-radius: 0.5rem;
+    border: #FFBB3E solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+/* chakra-stack css-gsc7pt */
+
+.chakra-stack {
+    /* display: flex; */
+    width: 80%;
+    /* justify-content: center; */
+}
+
+
+.isVeganCheckBox {
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 0px #ede9e0 !important;
+}
+
+.input-box {
+    width: 6%;
+    margin-right: 5px;
+}
+
+
+
+.chakra-stack>.css-b62m3t-container>.css-13cymwt-control {
+    border: #FFBB3E solid 2px;
+}
+
+.servingSize,
+.durationMin {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 0px 0px #ede9e0 !important;
+    font-weight: bold;
+
+}
+
+.recipeName {
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    border: #FFBB3E solid 2px;
+    border-radius: 0.4rem;
+    padding: 8px;
+}
+
+.unitInput {
+    border-bottom: #FFBB3E solid 1px;
+    width: 20%;
+    text-align: center;
+
+}
+
+
+.ingredientsStack>.ingredientsPostItem {
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 0.5rem;
+    width: 80%;
+
+}
+
+
+
+.ingredientsStack>.ingredientsPostItem>input {
+    width: 45%;
+    /* color: red; */
+    border-bottom: #FFBB3E solid 1px;
+    border-radius: 5px;
+    background-color: rgb(0 0 0 / 2%);
+    padding: 0.3rem;
+}
+
+
+.recipeForm>.chakra-stack>.chakra-textarea {
+    background-color: white;
+    border: #FFBB3E solid 2px;
+    padding-left: 7px;
+    padding-top: 9px;
+    box-shadow: 4px 2px 6px 3px #ede9e0;
+}
+
+.recipeForm>.chakra-stack>.css-1bki5fo {
+    outline: 0 !important
+}
+
+.recipeForm>.chakra-stack>.css-b62m3t-container>.css-1s2u09g-control {
+    border: #FFBB3E solid 2px;
+
+}
+
+.recipeForm>.chakra-stack>.css-b62m3t-container>.css-1pahdxg-control {
+    border: #FFBB3E solid 2px;
+    box-shadow: 0 0 0 1px #FFBB3E;
+}
+
+.ingredientsBorder,
+.stepsBorder {
+    background-color: #e6d6c2;
+    width: 100%;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+
+}
+
+
+
+.addNewIngredients {
+    border-radius: 1rem;
+    width: 40vw;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #ffbb3fcc;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: bold;
+    box-shadow: 3px 5px 10px -3px #ffbb3fcc;
+}
+
+
+
+.ingredients {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+}
+
+
+.ingredients>input {
+    width: 48%;
+    height: 2rem;
+    /* border: #FFBB3E solid 2px; */
+    /* border-bottom: 1px solid grey; */
+}
+
+.ingredients>.fa-trash-can {
+    /* background-color: green; */
+    color: gray;
+    /* width: 2rem;
+    height: 2rem; */
+    position: absolute;
+    right: -8%;
+    top: 20%
+}
+
+.stepsSubContainer {
+    display: flex;
+    padding-left: 2rem;
+
+    /* justify-content: space-around; */
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+/* .divInSteps {
+    width: 50%;
+} */
+
+.stepsMidSubContainer {
+    width: 70%;
+    padding-left: 5%;
+}
+
+.stepsMotherContainer {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.stepsContainer {
+    width: 100%;
+}
+
+.stepsDescription {
+    width: 100%
+}
+
+
+
+.stepsPhoto {
+    background-color: cyan;
+    width: 50%;
+}
+
+.checkLocalStorage {
+    background-color: #FFBB3E;
+}
+
+
+.outside-step-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.stepInput-container {
+    width: 80% !important;
+    height: 17vh !important;
+    border: solid 2px #ffa50069 !important;
+    margin: 5px;
+}
+
+.step-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.step-top-container {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.step-container {
+    border-radius: 10px;
+    border: 1px solid #ffbb3e8a;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0 0 0 / 5%);
+    box-shadow: 5px 5px 10px 5px #ede9e0;
+}
+
+.ingredientsStack {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.7rem; */
+
+
+    border-radius: 10px;
+
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+.stepMoveBtn {
+    background-color: #FFBB3E;
+    width: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+.deleteStep {
+    width: 27px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+
+
+.stepBtnContainer {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.addNewSteps {
+    width: 39%;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffbb3fcc;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px -3px #ffbb3fbf;
+    font-weight: bold;
+}

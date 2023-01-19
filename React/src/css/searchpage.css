@@ -1,0 +1,106 @@
+/* .container {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+} */
+
+.popular-container {
+    
+    height: 77vh;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    padding: 15px;
+}
+
+.checkBoxContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredient-input{
+    width: 100%;
+}
+
+.popular-recipe-img {
+
+    object-fit: cover;
+    height: 120px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;   
+
+}
+
+.popular-recipe {
+    border: #ffd1be solid 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+
+.popular-recipe-title {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.checkBoxItem{
+    padding: 2vw;
+}
+
+
+.css-uttm9k  {
+    background-color: #ffd1be;
+    border-bottom: solid 5px rgb(194 39 39);
+    box-shadow: 5px 3px 3px black;
+}
+
+.css-52dxnr[aria-selected=true], .css-52dxnr[data-selected]{
+    color: rgb(194 39 39);
+   
+}
+
+.reset-search-button{
+    height: 50px;
+    width: 95%;
+    margin: 2.5%;
+    background-color: white;
+    border: solid 3px #ffd1be;
+    box-shadow: 5px 3px 3px black;
+}
+
+.reset-search-button:hover{
+    height: 50px;
+    width: 93%;
+    margin: 3.5%;
+    background-color: rgb(233, 233, 233);
+    border: solid 3px #ffd1be;
+    box-shadow: 3px 1px 1px black;
+}
+
+.css-a5mhaz {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.recipe-search-section{
+    font-size: 20px;
+}
+
+.search-page-btn{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 2vh;
+    border-left: solid 2px #ffd1be;
+    transition: 1s;
+}
+
+.search-page-btn:hover{
+    background-color: rgb(227, 227, 227);
+    scale: 1.1;
+}
+

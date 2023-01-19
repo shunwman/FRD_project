@@ -1,0 +1,131 @@
+.profile-container {
+    background-color:#f1f1f1;;
+    height: 100vh;
+    width: 100vw;
+    /* border: 3px solid #ffbb3f; */
+    
+  }
+
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+  
+}
+
+.user-icon {
+    height: 20vh;
+    border-radius: 100%;
+    border: 5px solid #ffbb3f;
+    background-color: #ffeecf7a;
+    width: 50%;
+    /* margin-top: 2px; */
+    /* margin-bottom: 2px; */
+}
+
+.user-name {
+    font-size: 30px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.edit-button {
+    margin-left: 15px;
+}
+
+.select-container{
+    width: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 60vh;
+    background-color: #f5deb32b;
+    padding: 5px;
+}
+
+.select-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px 0px 0px 0px; */
+}
+
+
+.recipe-content {
+
+    display: flex;
+    border-radius: 10px;
+    margin: 2%;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border: 2px solid #ffbb3f;
+
+    /* height: 35%; */
+    /* align-items: center; */
+}
+
+.recipe-content-link{
+    width: 50%;
+}
+
+
+
+.recipe-img {
+    border-radius: 10px 10px 0px 0px;
+    height: 18vh;
+}
+
+.post-name {
+    padding: 0px 5px 0px 5px;
+    width: 100%;
+    font: small-caps bold 25px sans-serif;
+}
+
+
+.center-container {
+    width: 100%;
+    border-top: 3px solid #ffbb3f;
+    font: small-caps bold 25px sans-serif;
+ 
+}
+
+
+
+.center-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+.center-group .active {
+    background-color: #ffbb3f;
+    color: rgb(0, 0, 0);
+}
+
+#center-tab {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    height: 5vh;
+    align-items: center;
+    background-color: #f5deb32b;
+}
+
+
+.logout-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.profile-icon{
+    margin: 10px;
+    
+}

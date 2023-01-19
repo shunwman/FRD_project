@@ -1,0 +1,3 @@
+﻿user_id||name||cuisine_type_id||serving_size||duration_min||isVegan||jsonB
+1||加拿大肉餡餅||2||3||80||FALSE||{"steps":[{"description":"Washing","durationMin":40}]}
+2||非洲雞||3||1||60||FALSE||{"steps":[{"description":"Washing","durationMin":40},{"description":"Washing","durationMin":40}]}

@@ -1,0 +1,7 @@
+yarn add daisyui       
+yarn add -D tailwindcss
+yarn tailwindcss init  
+
+
+array = [string1, string2, string3, string4]
+newArray = array.map((string)=> return {steps: string})

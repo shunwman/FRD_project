@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icons{
+ 
+      
+      width: 50px;
+      height: 50px;
+
+}
+
+.App {
+  width: 100vw;
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+  justify-content: center;
+  }
+  
+.container {
+  background-color: #f5f4f4;
+  height: 100%;
+  width: 100vw;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 9999;
+  align-items: center;
+}
+
+.link {
+  color : orange
+}
+
+/*login css**/
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 100%;
+  border: 4px solid #ffbb3f;
+}
+
+.move-right{
+  display:flex;
+  align-items: flex-end;
+  padding: 10px;
+  justify-content: flex-end;
+
+}
+.move-left{
+  display:flex;
+  align-items: flex-start;
+  padding: 10px;
+  justify-content: flex-start;
+
+}
+.move-center{
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.move-center-icon{
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+
+}
+.move-center-input{
+  display:flex;
+  align-items: center;
+
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.loginSection p{
+  font-size: 50px;
+  font-weight: 900;
+  padding-top: 3vh;
+}
+
+.logo-icon-Large{
+  width: 16vh;
+    margin-top: 2px;
+    margin-bottom: 6vh;
+    border-radius: 100%;
+    border: 4px solid #ffbb3f;
+   
+  
+}
+
+.move-center input{
+  padding:10px;
+  box-shadow: 3px 3px 10px 0 darkgrey;
+}
+.space-evenly{
+  display:flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-evenly;
+
+}
+.loginSection button{
+  background-color: #ffbb3f;
+  border-radius: 5%;
+  padding: 10px;
+  width: 100px;
+  box-shadow: 3px 3px 3px 0 darkgrey;
+
+}
+
+.ask-for-login {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 70px;
+  background-color: #ffbb3f;
+}
+
+
+
+.css-a5mhaz {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+
+
+.position-solve{
+  color: #f5f4f400;
+}
+
+.loader-cover {
+  width: 100vw;
+  background-color: #f5f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+}
+
+.loader-non-cover{
+  display: flex;
+
+  justify-content: center;
+}
+
+.move-center-inputR{
+  padding:10px;
+  margin: 5px;
+}
+
+.register-logo-name{
+  position: relative;
+  font-size: 33px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #ff6e3e;
+}

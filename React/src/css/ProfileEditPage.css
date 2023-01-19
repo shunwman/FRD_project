@@ -1,0 +1,103 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    min-height: 4rem;
+    width: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+
+.btn {
+    /* background-color: #ffd1be; */
+    width: 90px;
+    font-size: 16px;
+    /* display: flex !important; */
+}
+
+.return-btn {
+    background-color: orange;
+    color: #fff;
+    border: 0;
+}
+
+.complete-btn {
+    background-color: orange;
+    border: 0;
+
+
+}
+
+.top-content {
+    /* height: 35vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 3px solid #ffbb3f;
+    /* margin-top: 15px;*/
+}
+
+.edit-icon {
+    height: 20vh;
+    border-radius: 100%;
+    border: 5px solid #ffbb3f;
+    background-color: #ffeecf7a;
+}
+
+/* .user-icon {
+    height: 20vh;
+    border-radius: 100%;
+    border: 5px solid #ffbb3f;
+    background-color: #ffeecf7a;
+    width: 50%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+} */
+
+.edit-icon-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-button-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.bottom-content {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-content {
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    border: #FFBB3E solid 2px;
+    border-radius: 10px;
+    /* display: flex; */
+    /* margin: 5px; */
+    padding: 8px;
+
+}
+
+.icon-info {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.edit-from{
+    /* height: 100Vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}

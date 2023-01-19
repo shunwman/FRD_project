@@ -1,0 +1,31 @@
+import styles from "../css/Filter.module.css";
+
+
+const capitalize = (str: string) =>
+    str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+
+
+interface Props {
+    title: string
+    isActive: boolean
+    onClick: () => void
+}
+
+
+
+
+
+
+
+
+
+
+export default function Filter(props : Props) {
+
+    let {title, isActive, onClick} = props
+    return (
+        <div className={styles.wrapper} onClick={onClick}>
+            <div className={styles.title}>{capitalize(title)}</div>
+        </div>
+    );
+}
